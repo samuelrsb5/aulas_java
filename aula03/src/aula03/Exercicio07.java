@@ -1,5 +1,6 @@
 package aula03;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Exercicio07 {
 
@@ -14,23 +15,23 @@ public class Exercicio07 {
 			
 			
 			System.out.println("Digite números para o array 1: ");
-			int numeros = entrada.nextInt();
-			a1[i] = numeros;
+			a1[i] = entrada.nextInt();
 			
 			System.out.println("Digite números para o array 2: ");
-			numeros = entrada.nextInt();
-			a2[i] = numeros;
+			a2[i] = entrada.nextInt();
 			
 			System.out.println("Digite números para o array 3: ");
-		    numeros = entrada.nextInt();
-			a3[i] = numeros;
+			a3[i] = entrada.nextInt();
 			
 			System.out.println("Digite números para o array 4: ");
-			numeros = entrada.nextInt();
-			a4[i] = numeros;
+			a4[i] = entrada.nextInt();
 			
 			
 		}
+		System.out.println(Arrays.toString(a1));
+		System.out.println(Arrays.toString(a2));
+		System.out.println(Arrays.toString(a3));
+		System.out.println(Arrays.toString(a4));
 	}
 
 }
